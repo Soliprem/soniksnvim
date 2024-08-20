@@ -1,7 +1,7 @@
-if vim.g.did_load_eyeliner_plugin then
-  return
-end
-vim.g.did_load_eyeliner_plugin = true
+-- if vim.g.did_load_eyeliner_plugin then
+--   return
+-- end
+-- vim.g.did_load_eyeliner_plugin = true
 
 -- Highlights unique characters for f/F and t/T motions
 require('eyeliner').setup {
