@@ -94,6 +94,7 @@ with final.pkgs.lib; let
     markdown-oxide
     gopls
     python312Packages.python-lsp-server
+    nodePackages.typescript-language-server
   ];
 in {
   # This is the neovim derivation
