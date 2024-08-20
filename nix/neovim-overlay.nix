@@ -92,6 +92,8 @@ with final.pkgs.lib; let
     lua-language-server
     nil # nix LSP
     markdown-oxide
+    gopls
+    python312Packages.python-lsp-server
   ];
 in {
   # This is the neovim derivation
