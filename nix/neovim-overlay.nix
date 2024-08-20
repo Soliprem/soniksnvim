@@ -84,7 +84,7 @@ with final.pkgs.lib; let
     # neorg
     oil-nvim
     mkdnflow-nvim
-    tokyonight-nvim
+    gruvbox-nvim
   ];
 
   extraPackages = with pkgs; [

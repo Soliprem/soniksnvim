@@ -19,9 +19,10 @@ end
 -- Search down into subfolders
 opt.path = vim.o.path .. '**'
 
-vim.cmd("colorscheme tokyonight")
+vim.cmd("colorscheme gruvbox")
 opt.number = true
 opt.relativenumber = true
+opt.conceallevel = 3
 opt.cursorline = true
 opt.lazyredraw = true
 opt.showmatch = true -- Highlight matching parentheses, etc
