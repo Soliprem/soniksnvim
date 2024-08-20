@@ -23,6 +23,8 @@ vim.cmd("colorscheme gruvbox")
 opt.number = true
 opt.relativenumber = true
 opt.conceallevel = 3
+opt.ignorecase = true
+opt.smartcase = true
 opt.cursorline = true
 opt.lazyredraw = true
 opt.showmatch = true -- Highlight matching parentheses, etc
