@@ -1,3 +1,8 @@
+if vim.g.did_load_mkdnflow_plugin then
+  return
+end
+vim.g.did_load_mkdnflow_plugin = true
+
 require('mkdnflow').setup {
   modules = {
     bib = true,
