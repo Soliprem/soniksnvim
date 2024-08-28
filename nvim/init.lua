@@ -8,6 +8,7 @@ g.mapleader = ' '
 g.maplocalleader = ' '
 
 opt.compatible = false
+opt.clipboard = 'unnamedplus'
 
 -- Enable true colour support
 if fn.has('termguicolors') then
