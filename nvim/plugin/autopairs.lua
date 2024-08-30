@@ -1,3 +1,4 @@
+vim.g.did_load_autopairs_plugin = true
 if vim.g.did_load_autopairs_plugin then
   return
 end
