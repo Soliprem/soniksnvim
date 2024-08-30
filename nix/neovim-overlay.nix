@@ -82,6 +82,7 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     # neorg
+    nvim-autopairs
     oil-nvim
     mkdnflow-nvim
     gruvbox-nvim
