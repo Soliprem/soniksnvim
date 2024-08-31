@@ -97,6 +97,7 @@ with final.pkgs.lib; let
     gopls
     python312Packages.python-lsp-server
     nodePackages.typescript-language-server
+    vscode-langservers-extracted
   ];
 in {
   # This is the neovim derivation
