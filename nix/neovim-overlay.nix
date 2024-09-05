@@ -87,6 +87,7 @@ with final.pkgs.lib; let
     oil-nvim
     mkdnflow-nvim
     gruvbox-nvim
+    vim-wakatime
   ];
 
   extraPackages = with pkgs; [
