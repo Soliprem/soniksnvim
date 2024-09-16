@@ -4,4 +4,4 @@ end
 vim.g.did_load_quarto_plugin = true
 
 
-require('nvim-quarto').setup()
+require('quarto').setup()

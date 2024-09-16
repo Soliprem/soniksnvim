@@ -4,4 +4,4 @@ end
 vim.g.did_load_otter_plugin = true
 
 
-require('nvim-otter').setup()
+require('otter').setup()
