@@ -82,9 +82,12 @@ with final.pkgs.lib; let
     # ^ bleeding-edge plugins from flake inputs
     which-key-nvim
     # neorg
+    nvim-surround
+    # nvim-autopairs
     oil-nvim
     mkdnflow-nvim
     gruvbox-nvim
+    vim-wakatime
   ];
 
   extraPackages = with pkgs; [
@@ -95,6 +98,7 @@ with final.pkgs.lib; let
     gopls
     python312Packages.python-lsp-server
     nodePackages.typescript-language-server
+    vscode-langservers-extracted
   ];
 in {
   # This is the neovim derivation
