@@ -88,6 +88,8 @@ with final.pkgs.lib; let
     mkdnflow-nvim
     gruvbox-nvim
     vim-wakatime
+    otter-nvim
+    quarto-nvim
   ];
 
   extraPackages = with pkgs; [
